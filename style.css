@@ -2,6 +2,15 @@ body {
     margin-left: 5px;
     background-color: #c8f0ee;
 }
+.theme1 a{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.theme1 a:hover{
+    color: #8717f0;
+    text-decoration: underline;
+}
 #text_top{
     text-align: left;
     margin-left: 20px;
@@ -61,4 +70,7 @@ body {
     padding: 10px 20px;
     font-size: 20px;
     font-weight: bold;
+}
+#copyCircle{
+    text-align: center;
 }

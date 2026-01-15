@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    background-color: #dafff1;
+    margin-left: 5px;
+    background-color: #9ee28d;
 }
 #text_top{
     text-align: left;
@@ -30,4 +30,35 @@ body {
 .now{
     border: 2px solid #ffa023;
     background-color: #fdd07c;
+}
+#maleLabel,#femaleLabel,#ageVar {
+    width: 1300px;
+    padding: 8px;
+    font-size: 16px;
+}
+#horixix-Max,#horixix-scale{
+    width: 350px;
+}
+.section-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.theme{
+    font-weight: bold;
+}
+#codeOutput {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 300px;
+}
+#generateBtn,
+#copyBtn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
